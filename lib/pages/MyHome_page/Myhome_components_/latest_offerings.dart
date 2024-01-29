@@ -15,7 +15,7 @@ class _Iatest_offeringsState extends State<Iatest_offerings> {
       body: ListView(
         children: [
           Padding(
-            padding: const EdgeInsets.all(8.0),
+            padding: const EdgeInsets.all(18.0),
             child: Text(
               ("Handcrafted Curations"),
               style: GoogleFonts.dangrek(
