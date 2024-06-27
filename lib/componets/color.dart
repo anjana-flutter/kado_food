@@ -9,6 +9,7 @@ Color brownColor= Color(0xFF653434) ;
 Color lightbrownColor= Color(0x62653434) ;
 Color whiteColor= Color(0xFFFFFFFF) ;
 Color lightwhiteColor= Color(0x66FFFFFF) ;
+Color button_clr= Color(0xFF01512C) ;
  Container c =  Container(
 decoration: BoxDecoration(
   image: DecorationImage(image: AssetImage("assets/coffee.jpeg"),fit: BoxFit.fill,opacity: 80)

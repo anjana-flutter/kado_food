@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:kado_food/componets/color.dart';
+import 'package:kado_food/pages/MyHome_page/recommends_items.dart';
 import 'package:kado_food/pages/MyHome_page/stack_one.dart';
 
 import 'Myhome_components_/icon.dart';
@@ -67,7 +68,6 @@ class _My_HomeState extends State<My_Home> {
                               fit: BoxFit.cover,
                             ),
                           ),
-
                         ],
                       ),
                     ),
@@ -308,8 +308,9 @@ class _My_HomeState extends State<My_Home> {
                       ),
                     ),
                   ),
-
-
+                  Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: recommends_items()),
 
                   // LEARN MORE ABOUT THE WORLD OF COFFEE
                   Padding(
@@ -324,7 +325,6 @@ class _My_HomeState extends State<My_Home> {
                       ),
                     ),
                   ),
-
                 ],
               ),
             ],

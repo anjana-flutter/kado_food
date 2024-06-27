@@ -18,3 +18,34 @@ class TText extends StatelessWidget {
         ));
   }
 }
+class textsyles {
+
+
+  static final TextStyle Recommends_conttxt = GoogleFonts.roboto(
+    textStyle: TextStyle(
+      fontSize: 16,
+      fontWeight: FontWeight.bold,
+      color: blackColor,
+      letterSpacing: 1,
+    ),
+  );
+
+  static final TextStyle price_txt = GoogleFonts.roboto(
+    textStyle: TextStyle(
+      fontSize: 10,
+      fontWeight: FontWeight.w700,
+      color: blackColor,
+    ),
+  );
+
+  static const TextStyle button_txt = TextStyle(
+      fontWeight: FontWeight.w600,
+    color: Colors.white
+  );
+
+
+}
+
+
+
+

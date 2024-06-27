@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:kado_food/componets/color.dart';
-import 'package:kado_food/pages/MyHome_page/coppy_paste.dart';
-import 'package:kado_food/pages/login_page/login.dart';
+import 'package:kado_food/pages/MyHome_page/Myhome.dart';
 import 'package:kado_food/pages/welcom_page/welcome_screen.dart';
 
 void main() {
@@ -22,7 +21,7 @@ class MyApp extends StatelessWidget {
 
       debugShowCheckedModeBanner: false,
       home: Welcome_screen(),
-     // home:Home(),
+      // home:My_Home(),
     );
   }
 }
