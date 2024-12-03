@@ -48,7 +48,7 @@ class _recommends_itemsState extends State<recommends_items> {
                       ListTile(
                         leading: Image(
                           image: NetworkImage(
-                              "https://i.pinimg.com/564x/ab/f1/dd/abf1dd5b0505568145b5b9b17e7f1741.jpg"),
+                              "https://i.pinimg.com/564x/26/6e/65/266e650686ac8fddc44254d4e165828a.jpg"),
                         ),
                         title: veg_icon(),
                         subtitle: Text(('cappucino'),
@@ -145,7 +145,7 @@ class _recommends_itemsState extends State<recommends_items> {
                       ListTile(
                         leading: Image(
                           image: NetworkImage(
-                              "https://i.pinimg.com/564x/35/a2/6b/35a26b179a1ff7176340eadcbfd158bf.jpg"),
+                              "https://photoga64.wordpress.com/wp-content/uploads/2024/06/download-2.jpg"),
                         ),
                         title: veg_icon(),
                         subtitle: Text(('cappucino'),

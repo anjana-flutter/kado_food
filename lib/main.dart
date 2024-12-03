@@ -20,8 +20,7 @@ class MyApp extends StatelessWidget {
       ),
 
       debugShowCheckedModeBanner: false,
-      home: Welcome_screen(),
-      // home:My_Home(),
+       home:Welcome_screen(),
     );
   }
 }

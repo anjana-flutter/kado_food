@@ -5,6 +5,7 @@ import 'package:kado_food/pages/MyHome_page/recommends_items.dart';
 import 'package:kado_food/pages/MyHome_page/stack_one.dart';
 
 import 'Myhome_components_/icon.dart';
+import 'Myhome_components_/learn_more.dart';
 
 class My_Home extends StatefulWidget {
   const My_Home({Key? key}) : super(key: key);
@@ -233,8 +234,8 @@ class _My_HomeState extends State<My_Home> {
                                 decoration: BoxDecoration(
                                     borderRadius: BorderRadius.circular(70),
                                     image: DecorationImage(
-                                      image: AssetImage(
-                                          'assets/coffee_image.jpeg'),
+                                      image: NetworkImage(
+                                          'https://i.pinimg.com/564x/ab/f1/dd/abf1dd5b0505568145b5b9b17e7f1741.jpg'),
                                       fit: BoxFit.cover,
                                     )),
                               ),
@@ -261,7 +262,7 @@ class _My_HomeState extends State<My_Home> {
                                 decoration: BoxDecoration(
                                     borderRadius: BorderRadius.circular(70),
                                     image: DecorationImage(
-                                      image: AssetImage('assets/coffee1.jpeg'),
+                                      image: NetworkImage('https://photoga64.wordpress.com/wp-content/uploads/2024/06/download.jpg'),
                                       fit: BoxFit.cover,
                                     )),
                               ),
@@ -288,7 +289,7 @@ class _My_HomeState extends State<My_Home> {
                                 decoration: BoxDecoration(
                                     borderRadius: BorderRadius.circular(70),
                                     image: DecorationImage(
-                                      image: AssetImage('assets/coffee1.jpeg'),
+                                      image: NetworkImage('https://i.pinimg.com/564x/6d/40/f5/6d40f5d460e70d92f7ed724655f9e6e8.jpg'),
                                       fit: BoxFit.cover,
                                     )),
                               ),
@@ -324,6 +325,8 @@ class _My_HomeState extends State<My_Home> {
                         letterSpacing: 1,
                       ),
                     ),
+
+
                   ),
                 ],
               ),
